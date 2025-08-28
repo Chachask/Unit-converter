@@ -38,31 +38,33 @@
     height: 50px;
     position: absolute;
     top: 0%;
-    justify-content: center;
-    align-items: center;
+    
+   
 }
 h3 {
     color: #fff;
     text-align: center;
-   
+    
 
 }
 input[type=text]:focus {
     border: 3px solid #fff;
+    
+    
   }
 #num{
     width:80px;
     height: 40px;
-    margin-left: 220px;
-    background:#6943FF ;
+    margin-left: 210px;
+    background:#fff ;
     border-color: #fff;
     font-size: 30px;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: #000;
+    text-align: center;
     font-weight: 700;
-   
-
+    
     
 }
 #sub{
@@ -71,6 +73,8 @@ input[type=text]:focus {
     margin-left: 180px;
     background:#6943FF ;
     border-color: #fff;
+    border-style: double;
+    border-radius: 10px;
     color: #fff;
     font-size: 20px;
     font-weight: 500;

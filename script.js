@@ -6,6 +6,13 @@ let massOut   = document.getElementById("mass-output");
 
 const conv = document.getElementById("sub");
 
+numEl.addEventListener("focus", () => {
+    numEl.value = "";
+    lengthOut.textContent = "";
+    volumeOut.textContent = "";
+    massOut.textContent = "";
+});
+
 conv.addEventListener("click", () => {
     const value = Number(numEl.value);
 
